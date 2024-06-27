@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "NotPWA2",
+        "repositoryURL": "https://github.com/GabeTheCoder/NotPWA2",
+        "state": {
+          "branch": "main",
+          "revision": "b4d96b7aee99e0301821daa7fdb58c0225c37677",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
