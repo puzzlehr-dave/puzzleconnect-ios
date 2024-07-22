@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63EDA13E2C4E94BA00E9CB1C /* NotPWA2 in Frameworks */ = {isa = PBXBuildFile; productRef = 63EDA13D2C4E94BA00E9CB1C /* NotPWA2 */; };
 		D829D9772BDAC08A0027DF71 /* OpenLinkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D829D9762BDAC08A0027DF71 /* OpenLinkRequest.swift */; };
 		D8C61C1827AF14C2003C867F /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C61C1727AF14C2003C867F /* Auth.swift */; };
 		D8C61C1F27AF2B32003C867F /* Versioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C61C1E27AF2B32003C867F /* Versioning.swift */; };
@@ -18,10 +19,10 @@
 		D8F9B080274DDBBE00A8CFC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8F9B07F274DDBBE00A8CFC2 /* Assets.xcassets */; };
 		D8F9B083274DDBBE00A8CFC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8F9B082274DDBBE00A8CFC2 /* Preview Assets.xcassets */; };
 		D8F9B086274DDBBE00A8CFC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8F9B084274DDBBE00A8CFC2 /* LaunchScreen.storyboard */; };
-		D8F9B090274DDCAA00A8CFC2 /* NotPWA2 in Frameworks */ = {isa = PBXBuildFile; productRef = D8F9B08F274DDCAA00A8CFC2 /* NotPWA2 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		63EDA13C2C4E949D00E9CB1C /* notpwa2 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = notpwa2; path = "../puzzleconnect+ archives/notpwa2"; sourceTree = "<group>"; };
 		D829D9762BDAC08A0027DF71 /* OpenLinkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenLinkRequest.swift; sourceTree = "<group>"; };
 		D8C61C1727AF14C2003C867F /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
 		D8C61C1B27AF2014003C867F /* PuzzleHR.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PuzzleHR.entitlements; sourceTree = "<group>"; };
@@ -43,18 +44,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8F9B090274DDCAA00A8CFC2 /* NotPWA2 in Frameworks */,
+				63EDA13E2C4E94BA00E9CB1C /* NotPWA2 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63EDA13B2C4E949C00E9CB1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63EDA13C2C4E949D00E9CB1C /* notpwa2 */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D8F9B06D274DDBBE00A8CFC2 = {
 			isa = PBXGroup;
 			children = (
 				D8F9B078274DDBBE00A8CFC2 /* PuzzleHR */,
 				D8F9B077274DDBBE00A8CFC2 /* Products */,
+				63EDA13B2C4E949C00E9CB1C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,7 +121,7 @@
 			);
 			name = PuzzleHR;
 			packageProductDependencies = (
-				D8F9B08F274DDCAA00A8CFC2 /* NotPWA2 */,
+				63EDA13D2C4E94BA00E9CB1C /* NotPWA2 */,
 			);
 			productName = PuzzleHR;
 			productReference = D8F9B076274DDBBE00A8CFC2 /* PuzzleHR.app */;
@@ -141,7 +151,7 @@
 			);
 			mainGroup = D8F9B06D274DDBBE00A8CFC2;
 			packageReferences = (
-				D8F9B08E274DDCAA00A8CFC2 /* XCRemoteSwiftPackageReference "NotPWA2" */,
+				63EDA1382C4E944100E9CB1C /* XCLocalSwiftPackageReference "../notpwa2" */,
 			);
 			productRefGroup = D8F9B077274DDBBE00A8CFC2 /* Products */;
 			projectDirPath = "";
@@ -384,21 +394,16 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		D8F9B08E274DDCAA00A8CFC2 /* XCRemoteSwiftPackageReference "NotPWA2" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/GabeTheCoder/NotPWA2";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
+/* Begin XCLocalSwiftPackageReference section */
+		63EDA1382C4E944100E9CB1C /* XCLocalSwiftPackageReference "../notpwa2" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../notpwa2;
 		};
-/* End XCRemoteSwiftPackageReference section */
+/* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D8F9B08F274DDCAA00A8CFC2 /* NotPWA2 */ = {
+		63EDA13D2C4E94BA00E9CB1C /* NotPWA2 */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = D8F9B08E274DDCAA00A8CFC2 /* XCRemoteSwiftPackageReference "NotPWA2" */;
 			productName = NotPWA2;
 		};
 /* End XCSwiftPackageProductDependency section */
